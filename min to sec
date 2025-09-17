@@ -1,0 +1,3 @@
+sec=int(input("enter the min"))
+min=sec*60
+print(min)
