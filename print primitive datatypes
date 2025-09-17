@@ -1,0 +1,6 @@
+a=int(input("enter the number"))
+b=float(input("enter the number"))
+c=bool(input("enter the number"))
+print("integer:",a)
+print("float:",b)
+print("bool:",c)
