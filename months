@@ -1,0 +1,9 @@
+month=int(input("enter the month:"))
+if(month==(2)):
+  print("28 or 29")
+elif(month in (1,4,6,9,11)):
+  print("30")
+elif(month in (2,3,5,7,8,10)):
+  print("31")
+else:
+  print("error")
