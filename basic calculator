@@ -1,0 +1,13 @@
+d=int(input("enter the 1st number:"))
+e=int(input("enter the 2nd number:"))
+c=(input("enter the operation:"))
+if(c=="addition"):
+  print("addition",d+e)
+elif(c=="subtaction"):
+  print("subtraction",d-e)
+elif(c=="multi"):
+  print("multi",d*e)
+elif(c=="division"):
+  print("division",d/e)
+else:
+  print("correct operation")
