@@ -1,0 +1,17 @@
+week=(input("enter the day"))
+if(week=="sunday"):
+  print("sunday:",1)
+elif(week=="monday"):
+  print("monday:",2)
+elif(week=="tuesday"):
+  print("tueday",3)
+elif(week=="wednesday"):
+  print("wednesday:",4)
+elif(week=="thursday"):
+  print("thursday:",5)
+elif(week=="friday"):
+  print("friday:",6)
+elif(week=="saturday"):
+  print("saturday:",7)
+else:
+  print("enter valid week")
